@@ -3014,10 +3014,10 @@ __webpack_require__.r(__webpack_exports__);
       routes: {
         // UNLOGGED
         unlogged: [{
-          name: 'Inscription',
+          name: 'Registro',
           path: 'register'
         }, {
-          name: 'Connexion',
+          name: 'Iniciar Sesion',
           path: 'login'
         }],
         // LOGGED USER
@@ -3210,8 +3210,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {//
   }
@@ -3228,8 +3226,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-//
-//
 //
 //
 //
@@ -39932,18 +39928,18 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "card card-default" }, [
-        _c("div", { staticClass: "card-header" }, [_vm._v("Bienvenue")]),
+        _c("div", { staticClass: "card-header" }, [_vm._v("Bienvenido")]),
         _vm._v(" "),
         _c("div", { staticClass: "card-body" }, [
           _c("p", [
             _vm._v(
-              "\n                American  Main Barbary Coast scuttle hardtack spanker fire ship grapple jack code  of conduct port. Port red ensign Shiver me timbers provost salmagundi  bring a spring upon her cable pillage cog crow's nest lateen sail.  Barbary Coast quarterdeck lass coffer keel hulk mizzen me square-rigged  loot.\n            "
+              "\n                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, aperiam minus? Ratione, ipsa. Ipsa minima veniam minus beatae, aspernatur quas quidem quo doloremque porro qui suscipit veritatis voluptas. Hic, error.\n            "
             )
           ]),
           _vm._v(" "),
           _c("p", [
             _vm._v(
-              "\n                Yardarm starboard keelhaul list schooner prow booty cackle  fruit gabion topmast. Plunder shrouds Nelsons folly jack Arr parley warp  grog blossom ballast pressgang. Knave crack Jennys tea cup flogging log  man-of-war hearties killick long clothes six pounders hulk.\n            "
+              "\n                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta vel suscipit accusamus provident eaque, sequi modi officia est, similique veniam voluptate. Fuga quia impedit illum accusantium a recusandae perspiciatis necessitatibus!\n            "
             )
           ])
         ])
@@ -39974,16 +39970,12 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "container" }, [
     _c("div", { staticClass: "card card-default" }, [
-      _c("div", { staticClass: "card-header" }, [_vm._v("Connexion")]),
+      _c("div", { staticClass: "card-header" }, [_vm._v("Registro")]),
       _vm._v(" "),
       _c("div", { staticClass: "card-body" }, [
         _vm.has_error
           ? _c("div", { staticClass: "alert alert-danger" }, [
-              _c("p", [
-                _vm._v(
-                  "Erreur, impossible de se connecter avec ces identifiants."
-                )
-              ])
+              _c("p", [_vm._v("No existe el usuario.")])
             ])
           : _vm._e(),
         _vm._v(" "),
@@ -40061,7 +40053,7 @@ var render = function() {
             _c(
               "button",
               { staticClass: "btn btn-default", attrs: { type: "submit" } },
-              [_vm._v("Connexion")]
+              [_vm._v("Entrar")]
             )
           ]
         )
@@ -40093,22 +40085,14 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "container" }, [
     _c("div", { staticClass: "card card-default" }, [
-      _c("div", { staticClass: "card-header" }, [_vm._v("Inscription")]),
+      _c("div", { staticClass: "card-header" }, [_vm._v("Registro")]),
       _vm._v(" "),
       _c("div", { staticClass: "card-body" }, [
         _vm.has_error && !_vm.success
           ? _c("div", { staticClass: "alert alert-danger" }, [
               _vm.error == "registration_validation_error"
-                ? _c("p", [
-                    _vm._v(
-                      "Erreur(s) de validation, veuillez consulter le(s) message(s) ci-dessous."
-                    )
-                  ])
-                : _c("p", [
-                    _vm._v(
-                      "Erreur, impossible de s'inscrire pour le moment. Si le problème persiste, veuillez contacter un administrateur."
-                    )
-                  ])
+                ? _c("p", [_vm._v("Verifica tus datos")])
+                : _c("p", [_vm._v("Error, Imposible registrarse.")])
             ])
           : _vm._e(),
         _vm._v(" "),
@@ -40178,7 +40162,7 @@ var render = function() {
                   },
                   [
                     _c("label", { attrs: { for: "password" } }, [
-                      _vm._v("Mot de passe")
+                      _vm._v("Password")
                     ]),
                     _vm._v(" "),
                     _c("input", {
@@ -40219,7 +40203,7 @@ var render = function() {
                   },
                   [
                     _c("label", { attrs: { for: "password_confirmation" } }, [
-                      _vm._v("Confirmation mot de passe")
+                      _vm._v("Confirmar Password")
                     ]),
                     _vm._v(" "),
                     _c("input", {
@@ -40249,7 +40233,7 @@ var render = function() {
                 _c(
                   "button",
                   { staticClass: "btn btn-default", attrs: { type: "submit" } },
-                  [_vm._v("Inscription")]
+                  [_vm._v("Registrarse")]
                 )
               ]
             )
@@ -40292,9 +40276,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "card-header" }, [_vm._v("Admin Dashboard")]),
         _vm._v(" "),
         _c("div", { staticClass: "card-body" }, [
-          _vm._v(
-            "\n            Bienvenue sur votre dashboard administrateur\n        "
-          )
+          _vm._v("Bienvenido Administrador")
         ])
       ])
     ])
@@ -40332,9 +40314,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "card card-default" }, [
         _c("div", { staticClass: "card-header" }, [_vm._v("Dashboard")]),
         _vm._v(" "),
-        _c("div", { staticClass: "card-body" }, [
-          _vm._v("\n            Bienvenue\n        ")
-        ])
+        _c("div", { staticClass: "card-body" }, [_vm._v("Bienvenido Usuario")])
       ])
     ])
   }

@@ -34,11 +34,11 @@
           // UNLOGGED
           unlogged: [
             {
-              name: 'Inscription',
+              name: 'Registro',
               path: 'register'
             },
             {
-              name: 'Connexion',
+              name: 'Iniciar Sesion',
               path: 'login'
             }
           ],

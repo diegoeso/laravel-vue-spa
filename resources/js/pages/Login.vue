@@ -1,10 +1,10 @@
 <template>
     <div class="container">
         <div class="card card-default">
-            <div class="card-header">Connexion</div>
+            <div class="card-header">Registro</div>
             <div class="card-body">
                 <div class="alert alert-danger" v-if="has_error">
-                    <p>Erreur, impossible de se connecter avec ces identifiants.</p>
+                    <p>No existe el usuario.</p>
                 </div>
                 <form autocomplete="off" @submit.prevent="login" method="post">
                     <div class="form-group">
@@ -15,7 +15,7 @@
                         <label for="password">Mot de passe</label>
                         <input type="password" id="password" class="form-control" v-model="password" required>
                     </div>
-                    <button type="submit" class="btn btn-default">Connexion</button>
+                    <button type="submit" class="btn btn-default">Entrar</button>
                 </form>
             </div>
         </div>
